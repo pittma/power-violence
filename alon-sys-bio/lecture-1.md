@@ -14,9 +14,9 @@
       bind, it “increases the probability” that the RNAp will do its
       thing.
         
-        ![transcription.png](../images/transcription.png)
+      ![transcription.png](../images/transcription.png)
         
-        We use $X \to Y$ to symbolize this entire interaction.
+      We use $X \to Y$ to symbolize this entire interaction.
         
 - This happens across several orders of magnitude in terms of
   timescales. The binding of a transcription factor to an
@@ -48,7 +48,9 @@
       function is linear, when it’s $\infty$, it’s a step function.
     - $n$ is typically between 1 and 4.
 
-$$ \cfrac{\beta (X^*)^n}{K^n+(X^*)^n} $$
+$$
+\cfrac{\beta (X^{\*})^n}{K^n+(X^{\*})^n}
+$$
 
 - When a gene is bound by two TFs, it is a product of hill functions,
   but works like a AND or OR gate. Apparently we don’t know how to
@@ -57,15 +59,16 @@ $$ \cfrac{\beta (X^*)^n}{K^n+(X^*)^n} $$
 - “circuits”—subgraphs of the larger network within a cell.
 - A proteasome cuts a protein back up into amino acids.
 
-$$ \cfrac{dy}{dt} = \beta - \alpha y $$
+$$
+\cfrac{dy}{dt} = \beta - \alpha y
+$$
 
 - This is for a function $x \to y$, where $\beta$ is the rate of
   production of $x$, i.e., “signal”, and $\alpha$ is the rate of
   degradation. this can be done via dilution or by direct degradation,
   via proteasomes.
-    - In a steady state, $\cfrac{dy}{dt}$ is $0$, so $\beta - \alpha y
-      = 0$, so you have $\cfrac{\beta}{\alpha}$—production over
-      removal.
+    - In a steady state, $\cfrac{dy}{dt}$ is $0$, so $\beta - \alpha y = 0$,
+	  so you have $\cfrac{\beta}{\alpha}$—production over removal.
 - response time is dependent only on removal rate, there is math to
   explain this but I don’t understand it yet. He uses $e$ in the
   equations and mentions an eigenvalue, but I don’t know what that is.
