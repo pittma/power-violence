@@ -1,0 +1,3 @@
+[submodule "mediKanren"]
+	path = mediKanren
+	url = git@github.com:pittma/mediKanren.git
