@@ -36,9 +36,9 @@
       of its need to be understandable post facto. This was commentary
       on the fact that the parts are the same, designed for reuse
       across most species. This seems profound on its face, but the
-      truth is that it is really they they are descendant from the
+      truth is that it is really that they are descendant from the
       same ancestors—single celled organisms, literal prototypes—of
-      the massively complex multi-cellular organisms of today.
+      the massively complex multicellular organisms of today.
     - E coli’s order is ~4500, while $|E|$ is ~10,000.
 - The **input function** plots, given an $X \to Y$, the rate of $Y$
   production given a certain $X^*$ concentration?
@@ -65,7 +65,7 @@ $$
 
 - This is for a function $x \to y$, where $\beta$ is the rate of
   production of $x$, i.e., “signal”, and $\alpha$ is the rate of
-  degradation. this can be done via dilution or by direct degradation,
+  degradation. This can be done via dilution or by direct degradation,
   via proteasomes.
     - In a steady state, $\cfrac{dy}{dt}$ is $0$, so $\beta - \alpha y = 0$,
 	  so you have $\cfrac{\beta}{\alpha}$—production over removal.
